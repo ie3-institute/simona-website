@@ -1,3 +1,7 @@
+# SIMONA - Website
+
+This is what will one day become a website for the agent-based power system simulation SIMONA of the ie3 institute.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
