@@ -8,7 +8,7 @@ export const HeroWrapper = styled.div`
   width: 100%;
 `;
 
-export const HeroContainer = styled.div`
+export const HeroContent = styled.div`
   max-width: var(--maxWidth);
   margin: 0 60px;
   height: 600px;

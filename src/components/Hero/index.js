@@ -1,18 +1,18 @@
 import React from 'react';
 import {
   HeroWrapper,
-  HeroContainer,
   HeroHeading,
   HeroImage,
   HeroText,
   HeroParagraph,
+  HeroContent,
 } from './Hero.styles';
 import HeroIllustration from '../../images/undraw/undraw_control_panel.svg';
 
 const Hero = () => {
   return (
     <HeroWrapper>
-      <HeroContainer>
+      <HeroContent>
         <HeroText>
           <HeroHeading>An agent-based energy system simulation</HeroHeading>
           <HeroParagraph>
@@ -22,7 +22,7 @@ const Hero = () => {
           </HeroParagraph>
         </HeroText>
         <HeroImage src={HeroIllustration} />
-      </HeroContainer>
+      </HeroContent>
     </HeroWrapper>
   );
 };

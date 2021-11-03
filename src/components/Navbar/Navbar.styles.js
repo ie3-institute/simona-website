@@ -68,8 +68,12 @@ export const NavLinks = styled(Link)`
   display: flex;
   align-items: center;
   text-decoration: none;
-  padding: 0 2rem;
+  margin: 0 0 0 3rem;
   height: 100%;
+
+  &:hover {
+    border-bottom: 3px solid var(--green);
+  }
 
   &.active {
     border-bottom: 3px solid var(--green);
