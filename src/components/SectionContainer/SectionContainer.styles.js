@@ -9,8 +9,9 @@ export const SectionWrapper = styled.div`
 
 export const SectionContent = styled.div`
   max-width: var(--maxWidth);
+  width: 100%;
   margin: 0 60px;
-  height: 600px;
+  height: 500px;
   display: flex;
   align-items: center;
   justify-content: space-between;

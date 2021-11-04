@@ -4,8 +4,9 @@ import Sidebar from '../components/Sidebar';
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 // Images
-import IMGControlPanel from '../images/undraw/undraw_control_panel.svg';
-import SectionRight from '../components/SectionRight';
+import IMGCharts from '../images/undraw/undraw_charts.svg';
+import IMGServices from '../images/undraw/undraw_services.svg';
+import Section from '../components/Section';
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,14 +20,22 @@ const Home = () => {
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       <Hero></Hero>
-      <SectionRight
-        image={IMGControlPanel}
+      <Section
+        textLeft={false}
+        image={IMGCharts}
         header={'Simona Analysis'}
         paragraph={
           'Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum. At nam minimum ponderum. Est audiam animal molestiae te. Ex duo eripuit mentitum. Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum'
         }
       />
-      <div>HELLO WORLD</div>
+      <Section
+        textLeft={true}
+        image={IMGServices}
+        header={'Simulation Service'}
+        paragraph={
+          'Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum. At nam minimum ponderum. Est audiam animal molestiae te. Ex duo eripuit mentitum. Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum'
+        }
+      />
     </>
   );
 };

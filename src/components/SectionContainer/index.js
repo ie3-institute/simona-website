@@ -1,10 +1,13 @@
 import React from 'react';
 import { SectionWrapper, SectionContent } from './SectionContainer.styles';
 
-const SectionContainer = () => {
+const SectionContainer = ({ left, right }) => {
   return (
     <SectionWrapper>
-      <SectionContent></SectionContent>
+      <SectionContent>
+        {left}
+        {right}
+      </SectionContent>
     </SectionWrapper>
   );
 };

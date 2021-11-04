@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 export const SectionImage = styled.img`
   width: 40%;
-  max-width: 640px;
 
   @media screen and (max-width: 768px) {
     flex-direction: column;
@@ -13,8 +12,6 @@ export const SectionImage = styled.img`
 
 export const SectionText = styled.div`
   text-align: left;
-  margin-left: 20px;
-  width: 100%;
   max-width: 640px;
   @media screen and (max-width: 768px) {
     text-align: center;
@@ -36,7 +33,6 @@ export const SectionHeading = styled.h2`
 export const SectionParagraph = styled.div`
   color: var(--lightGrey);
   font-weight: 300;
-  max-width: 75%;
   position: relative;
   bottom: 30px;
   @media screen and (max-width: 768px) {
