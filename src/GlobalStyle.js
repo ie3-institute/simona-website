@@ -45,6 +45,7 @@ export const GlobalStyle = createGlobalStyle`
     p{
       font-size: 1rem;
       color: var(--lightGrey);
+      font-weight: 300;
     }
   }
 `;

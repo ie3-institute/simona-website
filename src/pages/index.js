@@ -7,6 +7,7 @@ import Hero from '../components/Hero';
 import IMGCharts from '../images/undraw/undraw_charts.svg';
 import IMGServices from '../images/undraw/undraw_services.svg';
 import Section from '../components/Section';
+import CardSection from '../components/CardSection';
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,6 +21,7 @@ const Home = () => {
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       <Hero></Hero>
+      <CardSection />
       <Section
         textLeft={false}
         image={IMGCharts}

@@ -55,9 +55,7 @@ export const HeroHeading = styled.h1`
   }
 `;
 
-export const HeroParagraph = styled.div`
-  color: var(--lightGrey);
-  font-weight: 300;
+export const HeroParagraph = styled.p`
   max-width: 75%;
   position: relative;
   bottom: 30px;
