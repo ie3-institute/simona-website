@@ -3,6 +3,7 @@ import { Wrapper, Content, Cards } from './CardSection.styles';
 import Card from '../Card';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSolarPanel } from '@fortawesome/free-solid-svg-icons';
+import { faChartLine } from '@fortawesome/free-solid-svg-icons';
 
 const CardSection = () => {
   return (
@@ -11,8 +12,8 @@ const CardSection = () => {
         <h2> What makes Simona special</h2>
         <Cards>
           <Card
-            icon={<FontAwesomeIcon icon={faSolarPanel} />}
-            heading={'Renewable Energies Modeling'}
+            icon={<FontAwesomeIcon icon={faChartLine} />}
+            heading={'Time Series Generation'}
             paragraph={
               'Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum. At nam minimum ponderum. Est audiam animal molestiae te. Ex duo eripuit mentitum.'
             }
@@ -26,7 +27,7 @@ const CardSection = () => {
           />
           <Card
             icon={<FontAwesomeIcon icon={faSolarPanel} />}
-            heading={'Renewable Energies Modeling'}
+            heading={'Open Source Development'}
             paragraph={
               'Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum. At nam minimum ponderum. Est audiam animal molestiae te. Ex duo eripuit mentitum.'
             }

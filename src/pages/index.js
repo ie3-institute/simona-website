@@ -8,6 +8,7 @@ import IMGCharts from '../images/undraw/undraw_charts.svg';
 import IMGServices from '../images/undraw/undraw_services.svg';
 import Section from '../components/Section';
 import CardSection from '../components/CardSection';
+import Footer from '../components/Footer';
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -38,6 +39,7 @@ const Home = () => {
           'Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum. At nam minimum ponderum. Est audiam animal molestiae te. Ex duo eripuit mentitum. Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum'
         }
       />
+      <Footer />
     </>
   );
 };

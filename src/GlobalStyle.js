@@ -35,17 +35,20 @@ export const GlobalStyle = createGlobalStyle`
     h2 {
       font-size: var(--fontBig);
       font-weight: 600;
+      color: var(--darkGrey);
     }
 
     h3 {
       font-size: var(--fontMedium);
       font-weight: 600;
+      color: var(--darkGrey);
     }
 
     p{
       font-size: 1rem;
       color: var(--lightGrey);
       font-weight: 300;
+      line-height: 1.5rem;
     }
   }
 `;

@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
 export const SectionImage = styled.img`
-  width: 40%;
+  height: 70%;
+  margin: auto;
 
   @media screen and (max-width: 768px) {
     flex-direction: column;
@@ -10,7 +11,7 @@ export const SectionImage = styled.img`
   }
 `;
 
-export const SectionText = styled.div`
+export const SectionText = styled.p`
   text-align: left;
   max-width: 640px;
   @media screen and (max-width: 768px) {
