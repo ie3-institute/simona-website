@@ -17,7 +17,9 @@ export const SectionContent = styled.div`
   justify-content: space-between;
 
   @media screen and (max-width: 768px) {
+    flex-direction: ${({ textLeft }) =>
+      textLeft ? 'column' : 'column-reverse'};
+    margin: 60px;
     height: 100%;
-    flex-direction: column-reverse;
   }
 `;

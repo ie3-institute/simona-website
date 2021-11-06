@@ -35,7 +35,6 @@ export const GlobalStyle = createGlobalStyle`
     h2 {
       font-size: var(--fontBig);
       font-weight: 600;
-      line-height: 1.5rem;
       color: var(--darkGrey);
     }
 

@@ -1,12 +1,19 @@
 import React from 'react';
 import { SectionWrapper, SectionContent } from './SectionContainer.styles';
 
-const SectionContainer = ({ left, right }) => {
-  return (
+const SectionContainer = ({ text, image, textLeft }) => {
+  return textLeft ? (
     <SectionWrapper>
-      <SectionContent>
-        {left}
-        {right}
+      <SectionContent textLeft={textLeft}>
+        {text}
+        {image}
+      </SectionContent>
+    </SectionWrapper>
+  ) : (
+    <SectionWrapper>
+      <SectionContent textLeft={textLeft}>
+        {image}
+        {text}
       </SectionContent>
     </SectionWrapper>
   );

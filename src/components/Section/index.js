@@ -15,11 +15,8 @@ const Section = ({ image, header, paragraph, textLeft }) => {
       <SectionParagraph>{paragraph}</SectionParagraph>
     </SectionText>
   );
-
-  return textLeft ? (
-    <SectionContainer left={text} right={sectionImage} />
-  ) : (
-    <SectionContainer left={sectionImage} right={text} />
+  return (
+    <SectionContainer text={text} image={sectionImage} textLeft={textLeft} />
   );
 };
 

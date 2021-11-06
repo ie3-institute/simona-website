@@ -51,7 +51,7 @@ export const HeroHeading = styled.h1`
   left: 0;
   bottom: 60px;
   @media screen and (max-width: 768px) {
-    font-size: var(--fontMedium);
+    font-size: var(--fontBig);
   }
 `;
 
